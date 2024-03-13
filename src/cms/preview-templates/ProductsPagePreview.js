@@ -16,4 +16,4 @@ ProductsPagePreview.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default WholesalePagePreview
+export default ProductsPagePreview

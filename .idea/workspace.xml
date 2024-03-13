@@ -7,6 +7,7 @@
     <list default="true" id="652ec120-9846-4df2-81c6-8f9e4a409193" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/ProductsPagePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/preview-templates/ProductsPagePreview.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709750939993</updated>
-      <workItem from="1709750941042" duration="19918000" />
+      <workItem from="1709750941042" duration="20390000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -126,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710360961972</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first">
+      <option name="closed" value="true" />
+      <created>1710361195115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361195115</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first">
+      <option name="closed" value="true" />
+      <created>1710361342991</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361342991</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
