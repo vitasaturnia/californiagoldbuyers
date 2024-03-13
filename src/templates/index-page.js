@@ -47,58 +47,18 @@ export const IndexPageTemplate = ({
 
 
 <div className="bordertop">
-                  <section className="hero is-small has-background-grey bordertop">
-                  <div className="hero-body">
-                  <div className="columns has-text-centered">
-                  <div className="column">
-                  <div>
-                  <FontAwesomeIcon icon={faStar}  size="3x" className="has-text-primary"/>
-                    <h3 className="has-text-primary">Best Prices</h3>
-                  </div>
-                  </div>
-                  <div className="column">
-                  <div>
-                  <FontAwesomeIcon icon={faBoltLightning} size="3x" className="has-text-primary" />
-                                                        <h3 className="has-text-primary">Great Variety
-</h3>
-                  </div>
-                  </div>
-                  <div className="column">
-                  <div>
-                  <FontAwesomeIcon icon={faMoneyBill}  size="3x" className="has-text-primary"/>
-                    <h3 className="has-text-primary">Client is King
-
-</h3>
-                  </div>
-                  </div>
-
-                  </div>
-                  </div>
-                  </section>
-
-                  <section className="hero is-small is-info has-background-info borderbottom">
-                  <div className="hero-body">
-                  <div className="columns has-text-centered">
-                  <div className="column">
-                  <div>
-                    <p className="has-text-black">30 plus years of experience in the field and our retail license helps us to offer the best deals available.</p>
-                  </div>
-                  </div>
-                  <div className="column">
-                  <div>
-                    <p className="has-text-black">We know our customers and what they want. Thats why we got the best items in stock.</p>
-                  </div>
-                  </div>
-                  <div className="column">
-                  <div>
-                    <p className="has-text-black">At HeavenSent our customers are like our family. From the neighborhood, for the neighborhood.</p>
-                  </div>
-                  </div>
 
 
-                  </div>
-                  </div>
-                  </section>
+
+    <section className="section has-background-grey-light">
+        <div className="container">
+            <div className="columns is-multiline is-centered">
+                <Feature icon={faStar} title="Best Prices" text="30 plus years of experience in the field and our retail license helps us to offer the best deals available." />
+                <Feature icon={faBoltLightning} title="Great Variety" text="We know our customers and what they want. That's why we got the best items in stock." />
+                <Feature icon={faMoneyBill} title="Client is King" text="At HeavenSent our customers are like our family. From the neighborhood, for the neighborhood." />
+            </div>
+        </div>
+    </section>
 
 
 <div className="borderbottom">
@@ -135,6 +95,17 @@ export const IndexPageTemplate = ({
     </div>
   );
 };
+
+const Feature = ({ icon, title, text }) => (
+    <div className="column is-one-third">
+        <div className="has-text-centered">
+            <FontAwesomeIcon icon={icon} size="3x" className="has-text-primary" />
+            <h3 className="title is-4 has-text-primary">{title}</h3>
+            <p className="is-size-5 has-text-black">{text}</p>
+        </div>
+    </div>
+);
+
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
