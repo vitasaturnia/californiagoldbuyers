@@ -7,7 +7,7 @@ import Content, { HTMLContent } from "../components/Content";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
-export const AboutPageTemplate = ({ 
+export const WholesalePageTemplate = ({
    image,  
    title,
    content, 
@@ -33,7 +33,7 @@ export const AboutPageTemplate = ({
               padding: "1rem",
             }}
         >
-          About
+          Wholesale
         </h1>
       </div>
 
@@ -52,7 +52,7 @@ export const AboutPageTemplate = ({
   );
 };
 
-AboutPageTemplate.propTypes = {
+WholesalePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -65,7 +65,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <WholesalePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -81,7 +81,7 @@ AboutPage.propTypes = {
 
 export default AboutPage;
 
-export const aboutPageQuery = graphql`
+export const wholesalePageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html

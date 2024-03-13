@@ -1,19 +1,21 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About us
+image: /img/la.jpg
+heading: About us
+
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Welcome to Heaven Sent Smoke Shop
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Welcome to Heaven Sent Smoke Shop, the smoke shop for the people.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Here at Heaven Sent, we're not just your run-of-the-mill smoke shop; we're the spot where the community gathers to celebrate all things smoking. Whether you're a seasoned or an occasional smoker, we've got everything you need to elevate your smoking experience.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Located at the bustling intersection of Gage and Figueroa in South Central Los Angeles, Heaven Sent is more than just a store – it's a hub where friends come together, stories are shared, and memories are made.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Step inside and immerse yourself in a world of vibrant colors, inviting aromas, and enticing flavors. From premium glassware to the latest vaporizers, our handpicked selection is a testament to our commitment to providing you with the best smoking products on the market.
+
+So why settle for anything less than extraordinary? Join us at Heaven Sent Smoke Shop and let's make every smoke session a moment to remember!
+
+

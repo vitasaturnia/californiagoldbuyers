@@ -7,7 +7,7 @@ import Content, { HTMLContent } from "../components/Content";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
-export const AboutPageTemplate = ({ 
+export const ProductsPageTemplate = ({
    image,  
    title,
    content, 
@@ -33,7 +33,7 @@ export const AboutPageTemplate = ({
               padding: "1rem",
             }}
         >
-          About
+          Products
         </h1>
       </div>
 
@@ -52,20 +52,20 @@ export const AboutPageTemplate = ({
   );
 };
 
-AboutPageTemplate.propTypes = {
+ProductsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
 
-const AboutPage = ({ data }) => {
+const ProductsPage = ({ data }) => {
   const { markdownRemark: post } = data;
     const { frontmatter } = data.markdownRemark;
 
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <ProductsPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -75,14 +75,14 @@ const AboutPage = ({ data }) => {
   );
 };
 
-AboutPage.propTypes = {
+ProductsPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AboutPage;
+export default ProductsPage;
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const productsPageQuery = graphql`
+  query ProductsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

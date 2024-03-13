@@ -1,11 +1,19 @@
+
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faStar,
+  faBoltLightning,
 
+
+  faMoneyBill,
+  faCrown,
+
+} from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
@@ -21,55 +29,109 @@ export const IndexPageTemplate = ({
   const heroImage = getImage(image) || image;
 
   return (
+
+    
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
+      <FullWidthImage img={heroImage} />
+        <div className="">
+            <div className=" columns has-text-centered">
+              <div className="column ">
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
+                  <div className="section content">
+                  <FontAwesomeIcon icon={faCrown}  size="4x" className="has-text-primary"/>
                       <h1 className="title">{mainpitch.title}</h1>
-                    </div>
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
                   </div>
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
+
+
+<div className="bordertop">
+                  <section className="hero is-small has-background-grey bordertop">
+                  <div className="hero-body">
+                  <div className="columns has-text-centered">
+                  <div className="column">
+                  <div>
+                  <FontAwesomeIcon icon={faStar}  size="3x" className="has-text-primary"/>
+                    <h3 className="has-text-primary">Best Prices</h3>
                   </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
                   </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
+                  <div className="column">
+                  <div>
+                  <FontAwesomeIcon icon={faBoltLightning} size="3x" className="has-text-primary" />
+                                                        <h3 className="has-text-primary">Great Variety
+</h3>
                   </div>
+                  </div>
+                  <div className="column">
+                  <div>
+                  <FontAwesomeIcon icon={faMoneyBill}  size="3x" className="has-text-primary"/>
+                    <h3 className="has-text-primary">Client is King
+
+</h3>
+                  </div>
+                  </div>
+
+                  </div>
+                  </div>
+                  </section>
+
+                  <section className="hero is-small is-info has-background-info borderbottom">
+                  <div className="hero-body">
+                  <div className="columns has-text-centered">
+                  <div className="column">
+                  <div>
+                    <p className="has-text-black">30 plus years of experience in the field and our retail license helps us to offer the best deals available.</p>
+                  </div>
+                  </div>
+                  <div className="column">
+                  <div>
+                    <p className="has-text-black">We know our customers and what they want. Thats why we got the best items in stock.</p>
+                  </div>
+                  </div>
+                  <div className="column">
+                  <div>
+                    <p className="has-text-black">At HeavenSent our customers are like our family. From the neighborhood, for the neighborhood.</p>
+                  </div>
+                  </div>
+
+
+                  </div>
+                  </div>
+                  </section>
+
+
+<div className="borderbottom">
+                  <section className="hero is-small has-background-black">
+                  <div className="hero-body">
+                    <h3 className="has-text-primary">Explore the variety of products.</h3>
+                    <button className="button is-outlined is-primary">Products</button>
+
+                    </div>
+                    </section>
+</div>
+
+
+    <div className="borderbottom">
+    <section className="hero is-small has-background-black">
+        <div className="hero-body">
+            <h3 className="has-text-primary">Are you a business client?</h3>
+            <button className="button is-outlined is-primary">Wholesale</button>
+
+        </div>
+    </section>
+
+                    </div>
+                    </div>
+           
+
+
+                 
+
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
     </div>
   );
 };

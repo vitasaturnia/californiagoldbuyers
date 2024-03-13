@@ -36,10 +36,30 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section">
+
+<div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url('/img/la.jpg')`,
+          }}
+      >
+        <h1
+            className="has-text-weight-bold is-size-1 has-text-primary"
+            style={{
+              backgroundColor: "#191919",
+              padding: "1rem",
+            }}
+        >
+          Contact
+        </h1>
+      </div>
+
+      <section className="section has-text-centered is-quarterscreen">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <div className="section">
+                <div className="columns">
+                  <div className="column has-text-centered has-text-primary">
               <form
                 name="contact"
                 method="post"
@@ -47,6 +67,7 @@ export default class Index extends React.Component {
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
+                className="contactinput"
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 <input type="hidden" name="form-name" value="contact" />
@@ -57,12 +78,12 @@ export default class Index extends React.Component {
                   </label>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={"name"}>
-                    Your name
+                  <label className="label has-text-primary" htmlFor={"name"}>
+                    Name
                   </label>
                   <div className="control">
                     <input
-                      className="input"
+                      className="input contactinput"
                       type={"text"}
                       name={"name"}
                       onChange={this.handleChange}
@@ -72,12 +93,12 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={"email"}>
+                  <label className="label has-text-primary" htmlFor={"email"}>
                     Email
                   </label>
                   <div className="control">
                     <input
-                      className="input"
+                      className="input contactinput"
                       type={"email"}
                       name={"email"}
                       onChange={this.handleChange}
@@ -87,12 +108,12 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={"message"}>
+                  <label className="label has-text-primary" htmlFor={"message"}>
                     Message
                   </label>
                   <div className="control">
                     <textarea
-                      className="textarea"
+                      className="textarea contactinput"
                       name={"message"}
                       onChange={this.handleChange}
                       id={"message"}
@@ -101,11 +122,14 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <button className="button is-link" type="submit">
+                  <button className="button is-primary is-outlined" type="submit">
                     Send
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+              </div>
             </div>
           </div>
         </section>

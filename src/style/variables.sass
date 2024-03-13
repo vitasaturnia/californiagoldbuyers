@@ -5,11 +5,54 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+$gold: #e8b923
+$navbar-item-color: $white-ter
+$navbar-item-hover-color: $gold!important
+$navbar-item-hover-background-color: none!important
+$navbar-background-color: $black!important
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
+@font-face 
+  font-family: Diploma
+  src: url(../../static/fonts/Diploma.ttf) format('ttf')
+  font-weight: normal
+  font-style: normal
+
+#logotext
+  src: url(../../static/fonts/Ocean.ttf) format('ttf')
+  color: $gold
+  font-size: 1.25rem!important
+
+
+$grey: #F5F5F5
+$info: rgb(212,210,211)
+$info: $info
+$grey: $grey
+$primary: $gold
+$body-color: #0E1111
+$black: #0E1111
+
+is-black
+  background-color: $black!important
+
+
+has-text-white
+  color: $grey!important    
+
+has-background-grey
+  background-color: $grey!important
+
+has-background-info
+  background-color: $info!important 
+
+is-info
+  background-color: $info!important 
+
+
+has-text-grey
+  color: $grey!important
+
+.bordertop
+  border-top: $gold solid 0.03rem!important    
+
+.borderbottom
+  border-bottom: $gold solid 0.09rem!important   

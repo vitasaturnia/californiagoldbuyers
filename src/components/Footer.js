@@ -1,11 +1,13 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import logo from "../img/Heaven Sent-2.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
 
-import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+} from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   
@@ -14,8 +16,8 @@ const Footer = () => {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
+            alt="Mobile Detailing Los Angeles"
+            className="footerlogo"
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
@@ -24,11 +26,7 @@ const Footer = () => {
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
+                  
                     <li>
                       <Link className="navbar-item" to="/about">
                         About
@@ -39,21 +37,7 @@ const Footer = () => {
                         Products
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
+              
                   </ul>
                 </section>
               </div>
@@ -61,8 +45,8 @@ const Footer = () => {
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                      <Link className="navbar-item" to="/wholesale">
+                        Wholesale
                       </Link>
                     </li>
                     <li>
@@ -74,35 +58,20 @@ const Footer = () => {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
+              
+                <a title="facebook" href="https://facebook.com/heavensentsmokeshop">
+                <FontAwesomeIcon icon={faFacebook}  size="2x" className="has-text-primary"/>
                 </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
+
+                <a title="instagram" href="https://instagram.com/heavensentsmokeshop">
+                <FontAwesomeIcon icon={faInstagram}  size="2x" className="has-text-primary"/>
                 </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
+
+                <a title="WhatsApp" href="https://wa.me/5624051275">
+                <FontAwesomeIcon icon={faWhatsapp} size="2x" className="has-text-primary"/>
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
+
+
               </div>
             </div>
           </div>
