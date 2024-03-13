@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
 
 
 
-    <section className="section has-background-grey-light">
+    <section className="section">
         <div className="container">
             <div className="columns is-multiline is-centered">
                 <Feature icon={faStar} title="Best Prices" text="30 plus years of experience in the field and our retail license helps us to offer the best deals available." />
