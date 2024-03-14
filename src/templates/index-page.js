@@ -65,8 +65,9 @@ export const IndexPageTemplate = ({
                   <section className="hero is-small has-background-black">
                   <div className="hero-body">
                     <h3 className="has-text-primary">Explore the variety of products.</h3>
-                    <button className="button is-outlined is-primary">Products</button>
-
+                      <Link className="navbar-item" to="/products">
+                      <button className="button is-outlined is-primary">Products</button>
+                      </Link>
                     </div>
                     </section>
 </div>
@@ -76,7 +77,9 @@ export const IndexPageTemplate = ({
     <section className="hero is-small has-background-black">
         <div className="hero-body">
             <h3 className="has-text-primary">Are you a business client?</h3>
+            <Link className="navbar-item" to="/wholesale">
             <button className="button is-outlined is-primary">Wholesale</button>
+            </Link>
 
         </div>
     </section>

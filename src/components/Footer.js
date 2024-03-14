@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import logo from "../img/Heaven Sent-2.png";
+import logo from "../img/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebook,

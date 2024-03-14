@@ -1,6 +1,8 @@
 import * as React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFacebook, faInstagram, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 
 function encode(data) {
   return Object.keys(data)
@@ -53,7 +55,19 @@ export default class Index extends React.Component {
           Contact
         </h1>
       </div>
+<div className="section has-text-centered">
+  <a title="facebook" href="https://facebook.com/heavensentsmokeshop">
+    <FontAwesomeIcon icon={faFacebook}  size="2x" className="mr1 has-text-primary"/>
+  </a>
 
+  <a title="instagram" href="https://instagram.com/heavensentsmokeshop">
+    <FontAwesomeIcon icon={faInstagram}  size="2x" className="mr1 has-text-primary"/>
+  </a>
+
+  <a title="WhatsApp" href="https://wa.me/5624051275">
+    <FontAwesomeIcon icon={faWhatsapp} size="2x" className="mr1 has-text-primary"/>
+  </a>
+</div>
       <section className="section has-text-centered is-quarterscreen">
           <div className="container">
             <div className="content">
