@@ -28,8 +28,6 @@ export const IndexPageTemplate = ({
                                 <FontAwesomeIcon icon={faCrown} size="4x" className="has-text-primary"/>
                                 <h1 className="title">{mainpitch.title || "Your Title Placeholder"}</h1>
                                 <div className="tile">
-                                    {/* You can add your description or leave it empty */}
-                                    {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
                                 </div>
                             </div>
                             <div className="bordertop">
