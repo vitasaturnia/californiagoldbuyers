@@ -4,13 +4,11 @@ import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const WholesalePageTemplate = ({
    image,  
-   title,
-   content, 
+   content,
    contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
@@ -80,9 +78,8 @@ AboutPage.propTypes = {
 };
 
 export default AboutPage;
-
 export const wholesalePageQuery = graphql`
-  query AboutPage($id: String!) {
+  query WholesalePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -91,19 +88,7 @@ export const wholesalePageQuery = graphql`
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
-        }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+        }  
       }
     }
   }

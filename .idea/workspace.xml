@@ -6,15 +6,46 @@
   <component name="ChangeListManager">
     <list default="true" id="652ec120-9846-4df2-81c6-8f9e4a409193" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Heaven Sent-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logowithtext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/vers.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/cms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/cms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/ServicesPagePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/index.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/custom-style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/custom-style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/about-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/about-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/products-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/products-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/services-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/wholesale-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/wholesale-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Black Gold White Luxury Royal Crown Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Heaven Sent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/blog-index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/chemex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/coating.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/coffee-gear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/exterior.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/flavor_wheel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/home-jumbotron.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logowithtext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/meeting-space.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/og-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/products-full-width.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/products-grid1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/products-grid2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/products-grid3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tires.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/toyota.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tutorials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/vers.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709750939993</updated>
-      <workItem from="1709750941042" duration="25347000" />
+      <workItem from="1709750941042" duration="39414000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -230,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710365004242</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="first">
+      <option name="closed" value="true" />
+      <created>1710394118563</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710394118563</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

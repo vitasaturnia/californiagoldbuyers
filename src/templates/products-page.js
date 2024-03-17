@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const ProductsPageTemplate = ({
@@ -92,18 +91,7 @@ export const productsPageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+    
       }
     }
   }
