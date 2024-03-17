@@ -28,6 +28,8 @@ export const IndexPageTemplate = ({
                                 <FontAwesomeIcon icon={faCrown} size="4x" className="has-text-primary"/>
                                 <h1 className="title">{mainpitch.title || "Your Title Placeholder"}</h1>
                                 <div className="tile">
+                                    {/* You can add your description or leave it empty */}
+                                    {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
                                 </div>
                             </div>
                             <div className="bordertop">
@@ -43,15 +45,15 @@ export const IndexPageTemplate = ({
                                 <div className="borderbottom">
                                     <section className="hero is-small has-background-black">
                                         <div className="hero-body">
-                                            <h3 className="has-text-primary">Explore the vast variety of products</h3>
+                                            <h3 className="has-text-primary">Explore the variety of products.</h3>
                                             <Link className="navbar-item" to="/products">
-                                                <button className="button is-outlined center is-primary">Products</button>
+                                                <button className="button is-outlined is-primary">Products</button>
                                             </Link>
                                         </div>
                                     </section>
                                 </div>
                                 <div className="borderbottom">
-                                    <section className="hero is-small has-background-black ">
+                                    <section className="hero is-small has-background-black has-text-centered">
                                         <div className="hero-body ">
                                             <h3 className="has-text-primary">Are you a business client?</h3>
                                             <Link className="navbar-item" to="/wholesale">
