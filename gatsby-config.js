@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Mobile Detailing Los Angeles",
+    title: "Heaven Sent Smoke Shop",
     description:
-      "Next level detailing",
+      "Where every visit is a blessing",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

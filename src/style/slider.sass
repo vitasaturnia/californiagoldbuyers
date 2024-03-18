@@ -1,0 +1,89 @@
+@import ./variables.sass
+
+
+// Slider container
+.swiper-container
+  width: 100%
+  height: 40vh // Mobile height
+  position: relative
+  overflow: hidden
+
+  @media (min-width: 768px)
+    height: 30vh // Desktop height
+
+// Individual slide
+.swiper-slide
+  background-size: cover
+  background-position: center
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+
+// Slide content
+.slide-content
+  text-align: center
+  color: #fff
+  padding: 20px
+  position: relative
+
+  .text-container
+    background-color: rgba(0, 0, 0, 0.8) // Black background for text
+    padding: 20px
+    border-radius: 10px
+    width: auto
+    max-width: 80%
+
+// Title style
+.title
+  font-size: 2rem
+  margin-bottom: 10px
+
+
+.swiper-button-prev,
+.swiper-button-next
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  width: 30px
+  height: 30px
+  cursor: pointer
+  background-color: #00d1b2 // Primary color
+  border-radius: 50%
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 10
+  transition: background-color 0.3s ease
+
+  &::after
+    content: ""
+    width: 10px
+    height: 10px
+    border-top: 3px solid $primary
+    border-left: 3px solid $primary // Change to border-left for left arrow
+    transform: rotate(-45deg) // Change to negative rotation for left arrow
+
+
+.swiper-button-next::after
+  content: ""
+  width: 10px
+  height: 10px
+  border-top: 3px solid $primary
+  border-right: 3px solid $primary
+  transform: rotate(45deg)
+
+.swiper-button-prev
+  left: 10px
+
+.swiper-button-next
+  right: 10px
+
+  &:hover
+    background-color: #209cee
+
+.swiper-button-prev
+  left: 10px
+
+.swiper-button-next
+  right: 10px

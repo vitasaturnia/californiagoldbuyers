@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Mobile Detailing Los Angeles
+title: Heaven Sent Smoke Shop
 image: /img/front.jpeg
-heading: Mobile Detailing Los Angeles
-subheading: Los Angeles' Finest, we make your cars shine the brightest!
+heading: Heaven Sent Smoke Shop
+subheading: Where every visit is a blessing!
 mainpitch:
   title: The smoke shop where every visit is a blessing
    

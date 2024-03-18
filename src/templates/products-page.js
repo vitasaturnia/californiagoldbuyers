@@ -4,95 +4,94 @@ import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import SliderComponent from "../components/Slider"; // Updated import for SliderComponent
 
-// eslint-disable-next-line
 export const ProductsPageTemplate = ({
-   image,  
-   title,
-   content, 
-   contentComponent,
-}) => {
-  const PageContent = contentComponent || Content;
-  const heroImage = getImage(image) || image;
+                                         image,
+                                         title,
+                                         content,
+                                         contentComponent,
+                                     }) => {
+    const PageContent = contentComponent || Content;
+    const heroImage = getImage(image) || image;
 
-  return (
-    
-    <div className="content">
-
-<div
-          className="full-width-image-container margin-top-0 backgroundpositioncenter"
-          style={{
-            backgroundImage: `url('/img/entrance.jpeg')`,
-          }}
-      >
-        <h1
-            className="has-text-weight-bold is-size-1 has-text-primary"
-            style={{
-              backgroundColor: "#191919",
-              padding: "1rem",
-            }}
-        >
-          Products
-        </h1>
-      </div>
-
-    <section className="section">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <PageContent className="content" content={content} />
+    return (
+        <div className="content">
+            <div
+                className="full-width-image-container margin-top-0 backgroundpositioncenter"
+                style={{
+                    backgroundImage: `url('/img/entrance.jpeg')`,
+                }}
+            >
+                <h1
+                    className="has-text-weight-bold is-size-1 has-text-primary"
+                    style={{
+                        backgroundColor: "#191919",
+                        padding: "1rem",
+                    }}
+                >
+                    Products
+                </h1>
             </div>
-          </div>
+
+            <section className="section">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column is-10 is-offset-1">
+                            <div className="section">
+                                <PageContent className="content" content={content} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Render SliderComponent */}
+            <SliderComponent />
         </div>
-      </div>
-    </section>
-    </div>
-  );
+    );
 };
 
 ProductsPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string,
+    contentComponent: PropTypes.func,
 };
 
 const ProductsPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+    const { markdownRemark: post } = data;
     const { frontmatter } = data.markdownRemark;
 
-
-  return (
-    <Layout>
-      <ProductsPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-        image={frontmatter.image}
-      />
-    </Layout>
-  );
+    return (
+        <Layout>
+            <ProductsPageTemplate
+                contentComponent={HTMLContent}
+                title={post.frontmatter.title}
+                content={post.html}
+                image={frontmatter.image}
+            />
+        </Layout>
+    );
 };
 
 ProductsPage.propTypes = {
-  data: PropTypes.object.isRequired,
+    data: PropTypes.object.isRequired,
 };
 
 export default ProductsPage;
 
 export const productsPageQuery = graphql`
-  query ProductsPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
+    query ProductsPage($id: String!) {
+        markdownRemark(id: { eq: $id }) {
+            html
+            frontmatter {
+                title
+                image {
+                    childImageSharp {
+                        gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+                    }
+                }
+            }
         }
-    
-      }
     }
-  }
 `;
