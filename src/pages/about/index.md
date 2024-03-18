@@ -6,9 +6,7 @@ image: /img/la.jpg
 heading: About us
 
 ---
-### Welcome to Heaven Sent Smoke Shop
-
-Welcome to Heaven Sent Smoke Shop, the smoke shop for the people.
+### Welcome to Heaven Sent Smoke Shop, the smoke shop for the people.
 
 Here at Heaven Sent, we're not just your run-of-the-mill smoke shop; we're the spot where the community gathers to celebrate all things smoking. Whether you're a seasoned or an occasional smoker, we've got everything you need to elevate your smoking experience.
 

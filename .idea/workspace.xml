@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="652ec120-9846-4df2-81c6-8f9e4a409193" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/github-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/interior.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/jumbotron.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/losangelesskyline.jpeg" beforeDir="false" />
-    </list>
+    <list default="true" id="652ec120-9846-4df2-81c6-8f9e4a409193" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +30,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mycomputer/heavensent/src/img",
+    "last_opened_file_path": "/Users/mycomputer/heavensent/static/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/templates" />
       <recent name="$PROJECT_DIR$/src/cms/preview-templates" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709750939993</updated>
-      <workItem from="1709750941042" duration="47621000" />
+      <workItem from="1709750941042" duration="49672000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -268,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710724348144</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=".">
+      <option name="closed" value="true" />
+      <created>1710738482632</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710738482634</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

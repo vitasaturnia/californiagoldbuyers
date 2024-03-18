@@ -20,9 +20,9 @@ export const ProductsPageTemplate = ({
     <div className="content">
 
 <div
-          className="full-width-image-container margin-top-0"
+          className="full-width-image-container margin-top-0 backgroundpositioncenter"
           style={{
-            backgroundImage: `url('/img/la.jpg')`,
+            backgroundImage: `url('/img/entrance.jpeg')`,
           }}
       >
         <h1

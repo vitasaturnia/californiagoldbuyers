@@ -6,7 +6,6 @@ image: /img/la.jpg
 heading: Wholesale
 
 ---
-### Wholesale
 
 Welcome to Heaven Sent Smoke Shop's Wholesale Division – your ultimate source for quality smoking products at unbeatable prices!
 

@@ -2,11 +2,10 @@
 templateKey: 'products-page'
 path: /products
 title: Products
-image: /img/la.jpg
+image: /img/entrance.jpeg
 heading: Products
 
 ---
-### Products
 
 Welcome to Heaven Sent Smoke Shop's Wholesale Division – your ultimate source for quality smoking products at unbeatable prices!
 
