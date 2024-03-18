@@ -61,24 +61,29 @@ const IndexPage = ({ data }) => {
                                         </div>
                                     </section>
                                 </div>
-
-                                <div className="borderbottom">
-                                    <section className="hero is-small has-background-black">
-                                        <div className="hero-body">
-                                            <h3 className="has-text-primary">Explore the variety of products.</h3>
-                                            <Link to="/products"><button className="button is-outlined is-primary">Products</button></Link>
+                                <div className="borderbottom has-background-black">
+                                    <div className="columns">
+                                        <div className="column">
+                                            <section className="hero is-small">
+                                                <div className="hero-body">
+                                                    <h3 className="has-text-primary">Explore the variety of products.</h3>
+                                                    <Link to="/products"><button className="button is-outlined is-primary">Products</button></Link>
+                                                </div>
+                                            </section>
                                         </div>
-                                    </section>
+                                        <div className="column">
+                                            <section className="hero is-small">
+                                                <div className="hero-body">
+                                                    <h3 className="has-text-primary">Are you a business client?</h3>
+                                                    <Link to="/wholesale"><button className="button is-outlined is-primary">Wholesale</button></Link>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div className="borderbottom">
-                                    <section className="hero is-small has-background-black">
-                                        <div className="hero-body">
-                                            <h3 className="has-text-primary">Are you a business client?</h3>
-                                            <Link to="/wholesale"><button className="button is-outlined is-primary">Wholesale</button></Link>
-                                        </div>
-                                    </section>
-                                </div>
+
+
                             </div>
                         </div>
                     </div>                </div>
