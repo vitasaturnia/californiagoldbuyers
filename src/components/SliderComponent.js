@@ -23,7 +23,7 @@ export default function SimpleSlider() {
                       <div className="section has-text-centered ">
                           <h1 className="title has-text-primary">Cigarettes</h1>
                       </div>
-                      <StaticImage src="../img/front.jpeg" alt="Cigarettes" className="productsimage"/>
+                      <StaticImage src="../img/cigarettes.jpeg" alt="Cigarettes" className="productsimage"/>
                   </div>
                   </div>
 
@@ -38,7 +38,7 @@ export default function SimpleSlider() {
                       <div className="section has-text-centered mt-1">
                           <h1 className="title has-text-primary">Clothing</h1>
                       </div>
-                      <StaticImage src="../img/image7.jpeg" alt="Clothing" className="productsimage"/>
+                      <StaticImage src="../img/clothing.jpeg" alt="Clothing" className="productsimage"/>
                   </div>
                   <div className="column">
                       <div className="section has-text-centered mt-1">
