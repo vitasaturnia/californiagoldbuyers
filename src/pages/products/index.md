@@ -7,7 +7,7 @@ heading: Products
 
 ---
 
-Welcome to Heaven Sent Smoke Shop's Wholesale Division – your ultimate source for your favourite smoking products at unbeatable prices!
+Welcome to Heaven Sent Smoke Shop – your ultimate source for your favourite smoking products at unbeatable prices!
 
 As veterans in the game, we've established strong relationships with top suppliers, allowing us to offer you the best deals possible. From blunt wraps and cigars to vaporizers and rolling papers, we've got everything you need.
 
