@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import SliderComponent from "../components/Slider"; // Updated import for SliderComponent
+import SliderComponent from "../components/SliderComponent"; // Updated import for SliderComponent
 
 export const ProductsPageTemplate = ({
                                          image,
@@ -46,10 +46,14 @@ export const ProductsPageTemplate = ({
                 </div>
             </section>
 
-            {/* Render SliderComponent */}
+            <section>
             <SliderComponent />
+            </section>
+
         </div>
-    );
+
+
+);
 };
 
 ProductsPageTemplate.propTypes = {

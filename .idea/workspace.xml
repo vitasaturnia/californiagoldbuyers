@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="652ec120-9846-4df2-81c6-8f9e4a409193" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SliderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bongs.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image0.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/rollingpapers.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/shoesandmisc.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/blunts.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/sliderstyles.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/products-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/products-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2dKJfUDjzKrihjNal6s8unHxDzn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -50,6 +61,7 @@
       <map>
         <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -70,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709750939993</updated>
-      <workItem from="1709750941042" duration="56169000" />
+      <workItem from="1709750941042" duration="66154000" />
+      <workItem from="1710825458367" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -296,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710781125484</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=".">
+      <option name="closed" value="true" />
+      <created>1710799159401</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710799159401</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
