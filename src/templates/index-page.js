@@ -54,7 +54,7 @@ const IndexPage = ({ data }) => {
                                                     <div className="has-text-centered">
                                                         <FontAwesomeIcon icon={faMoneyBill} size="3x" className="has-text-primary" />
                                                         <h3 className="has-text-primary">The client is king</h3>
-                                                        <p className="has-text-black">At HeavenSent our customers are like family. Tha means customer service is number 1. </p>
+                                                        <p className="has-text-black">At HeavenSent our customers are like family. That means customer service is number 1. </p>
                                                     </div>
                                                 </div>
                                             </div>

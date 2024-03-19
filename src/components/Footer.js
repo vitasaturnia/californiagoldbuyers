@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Mobile Detailing Los Angeles"
+            alt="Heaven Sent Smoke Shop"
             className="footerlogo"
           />
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
+        <div className="content has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-4">
+            <div style={{ maxWidth: "100vw" }} className="columns is-centered">
+              <div className="column has-text-centered is-4">
                 <section className="menu">
                   <ul className="menu-list">
                   
@@ -41,12 +41,12 @@ const Footer = () => {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="column has-text-centered is-4">
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/wholesale">
-                        Wholesale
+                      <Link className="navbar-item" to="/deals">
+                        Promotions
                       </Link>
                     </li>
                     <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column is-4 has-text-centered social">
               
                 <a title="facebook" href="https://facebook.com/heavensentsmokeshop">
                 <FontAwesomeIcon icon={faFacebook}  size="2x" className="has-text-primary"/>
