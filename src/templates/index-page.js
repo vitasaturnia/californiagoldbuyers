@@ -71,14 +71,6 @@ const IndexPage = ({ data }) => {
                                                 </div>
                                             </section>
                                         </div>
-                                        <div className="column">
-                                            <section className="hero is-small">
-                                                <div className="hero-body">
-                                                    <h3 className="has-text-primary">Are you a business client?</h3>
-                                                    <Link to="/wholesale"><button className="button is-outlined is-primary">Wholesale</button></Link>
-                                                </div>
-                                            </section>
-                                        </div>
                                     </div>
                                 </div>
 
