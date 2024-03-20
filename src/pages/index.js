@@ -1,60 +1,68 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { graphql, Link } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import {  Link } from "gatsby";
 import Layout from "../components/Layout";
-import FullWidthImage from "../components/FullWidthImage";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faCrown, faBoltLightning, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
+import { faCrown, faSmile, faBoltLightning, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 
 
 const IndexPage = ({ data }) => {
-    const { frontmatter } = data.markdownRemark;
-    const title = frontmatter.title;
-    const image = frontmatter.image;
-    const heroImage = getImage(image) || image;
 
     return (
         <Layout>
 
             <div>
-                <FullWidthImage img={heroImage} />
+                <div
+                    className="full-width-image-container margin-top-0 backgroundpositioncenter"
+                    style={{
+                        backgroundImage: `url('/img/shasta.jpeg')`,
+                    }}
+                >
+                    <h1
+                        className="has-text-weight-bold is-size-1 has-text-primary"
+                        style={{
+                            backgroundColor: "#191919",
+                            padding: "1rem",
+                        }}
+                    >
+                        California Gold Buyers
+                    </h1>
+                </div>
+
                 <div className="">
                     <div className=" columns has-text-centered">
                         <div className="column ">
                             <div className="content">
-                                <div className="section content">
                                     <FontAwesomeIcon icon={faCrown}  size="4x" className="has-text-primary"/>
-                                    <h1 className="title">The Smokeshop where every visit is a blessing</h1>
+                                    <h1 className="title">Always the best price for your jewelry</h1>
                                     <div className="tile">
                                     </div>
-                                </div>
 
 
                                 <div className="bordertop">
                                     <section className="hero is-small has-background-grey bordertop">
                                         <div className="hero-body">
                                             <div className="columns is-centered">
+
                                                 <div className="column">
                                                     <div className="has-text-centered">
-                                                        <FontAwesomeIcon icon={faStar} size="3x" className="has-text-primary" />
-                                                        <h3 className="has-text-primary">Best Prices</h3>
-                                                        <p className="has-text-black">Due to our connections and wholesale license we can guarantee the lowest prices on the block.</p>
-
+                                                        <FontAwesomeIcon icon={faBoltLightning} size="3x" className="has-text-primary" />
+                                                        <h3 className="has-text-primary">Fast</h3>
+                                                        <p className="has-text-black">Get your cash paid out right away</p>
                                                     </div>
                                                 </div>
                                                 <div className="column">
                                                     <div className="has-text-centered">
-                                                        <FontAwesomeIcon icon={faBoltLightning} size="3x" className="has-text-primary" />
-                                                        <h3 className="has-text-primary">Great Variety</h3>
-                                                        <p className="has-text-black">We know our customers and what they want. That's why we got the best items in stock.</p>
+                                                        <FontAwesomeIcon icon={faSmile} size="3x" className="has-text-primary" />
+                                                        <h3 className="has-text-primary">Easy</h3>
+                                                        <p className="has-text-black">No hassles or headaches</p>
                                                     </div>
                                                 </div>
                                                 <div className="column">
                                                     <div className="has-text-centered">
                                                         <FontAwesomeIcon icon={faMoneyBill} size="3x" className="has-text-primary" />
-                                                        <h3 className="has-text-primary">The client is king</h3>
-                                                        <p className="has-text-black">At HeavenSent our customers are like family. That means customer service is number 1. </p>
+                                                        <h3 className="has-text-primary">Best Prices</h3>
+                                                        <p className="has-text-black">We believe in long term business relationships. No lowballing on this side.</p>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -66,8 +74,8 @@ const IndexPage = ({ data }) => {
                                         <div className="column">
                                             <section className="hero is-small">
                                                 <div className="hero-body">
-                                                    <h3 className="has-text-primary">Explore the variety of products.</h3>
-                                                    <Link to="/products"><button className="button is-outlined is-primary">Products</button></Link>
+                                                    <h3 className="has-text-primary">Interested in selling jewelry?</h3>
+                                                    <Link to="/products"><button className="button is-outlined is-primary">Sell now</button></Link>
                                                 </div>
                                             </section>
                                         </div>
@@ -84,30 +92,7 @@ const IndexPage = ({ data }) => {
     );
 };
 
-IndexPage.propTypes = {
-    data: PropTypes.shape({
-        markdownRemark: PropTypes.shape({
-            frontmatter: PropTypes.shape({
-                title: PropTypes.string.isRequired,
-                image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-            }).isRequired,
-        }).isRequired,
-    }).isRequired,
-};
 
 export default IndexPage;
 
-export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
-      }
-    }
-  }
-`;
+

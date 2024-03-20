@@ -5,7 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="652ec120-9846-4df2-81c6-8f9e4a409193" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/src/components/SliderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SliderComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/cms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/IndexPagePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/ProductsPagePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/WholesalePagePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Features.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SliderComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Heaven Sent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/atm.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blunts.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bongs.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cigarettes.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/clothing.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cooler.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/entrance.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/food.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/front.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/image9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/la.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/palestina.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/rollingpapers.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/shoesandmisc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/shop.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/social/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/social/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/social/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/social/vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/file-upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/thanks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/products/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/wholesale/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/custom-style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/custom-style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/about-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/products-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/wholesale-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/blunts.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/entrance.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +93,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mycomputer/heavensent/src/img",
+    "last_opened_file_path": "/Users/mycomputer/californiajewelrybuyers/src/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,9 +116,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/src/pages/contact" />
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/templates" />
-      <recent name="$PROJECT_DIR$/src/cms/preview-templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +134,8 @@
       <updated>1709750939993</updated>
       <workItem from="1709750941042" duration="66154000" />
       <workItem from="1710825458367" duration="6275000" />
-      <workItem from="1710866638149" duration="5133000" />
+      <workItem from="1710866638149" duration="5830000" />
+      <workItem from="1710878246100" duration="12301000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -345,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710875275888</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=".">
+      <option name="closed" value="true" />
+      <created>1710877351475</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710877351475</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Heaven Sent Smoke Shop",
+    title: "California Gold Buyers",
     description:
-      "Where every visit is a blessing",
+      "The best price for your jewelry",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -63,12 +63,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
+
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
